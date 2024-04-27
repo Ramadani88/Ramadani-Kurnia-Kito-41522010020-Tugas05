@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+        <item name="android:listDivider">@color/Bluedeep</item>
+    </style>
+</resources>
