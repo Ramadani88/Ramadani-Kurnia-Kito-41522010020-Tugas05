@@ -370,6 +370,8 @@
             android:text="Vaganza Fiesta"
             android:textColor="#4D4D4D"
             android:textSize="16sp"
+            android:clickable="true"
+            android:onClick="textView21"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.075"
@@ -681,12 +683,14 @@
                     android:src="@drawable/kiri"
                     android:layout_gravity="left"/>
 
-                <ImageView
-                    android:id="@+id/imageView49"
+                <ImageButton
+                    android:id="@+id/imageButton4"
                     android:layout_width="380dp"
                     android:layout_height="219dp"
                     android:src="@drawable/tengah"
-                    android:layout_gravity="center"/>
+                    android:background="@null"
+                    android:layout_gravity="center"
+                    android:onClick="imageButton4" />
 
                 <ImageView
                     android:id="@+id/imageView46"
@@ -694,7 +698,7 @@
                     android:layout_height="219dp"
                     android:src="@drawable/kanan"
                     android:layout_gravity="end"/>
-                
+
 
             </LinearLayout>
         </HorizontalScrollView>
