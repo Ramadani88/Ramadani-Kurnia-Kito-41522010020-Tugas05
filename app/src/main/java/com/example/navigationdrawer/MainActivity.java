@@ -42,9 +42,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, activity_scan.class);
         startActivity(intent);
     }
-    public void textView21(View view) {
-        // Tindakan yang akan dilakukan ketika TextView diklik
-        Intent intent = new Intent(this, activity_redeem.class);
+    public void imageButton10(View view) {
+        Intent intent = new Intent(MainActivity.this, activity_redeem.class);
+        startActivity(intent);
+    }
+    public void imageButton11(View view) {
+        Intent intent = new Intent(MainActivity.this, activity_ekstra.class);
+        startActivity(intent);
+    }
+    public void imageButton12(View view) {
+        Intent intent = new Intent(MainActivity.this, activity_royal.class);
         startActivity(intent);
     }
 }
